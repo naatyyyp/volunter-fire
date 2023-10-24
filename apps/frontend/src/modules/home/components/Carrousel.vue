@@ -5,11 +5,11 @@
         </v-carousel-item>
     
         <v-carousel-item> 
-            <v-img src="../assets/cuartel.JPG" cover></v-img>
+            <v-img src="../assets/porton.jpeg" cover></v-img>
         </v-carousel-item>
     
         <v-carousel-item> 
-            <v-img src="../assets/cascos.JPG" cover></v-img>
+            <v-img src="../assets/cascos.jpeg" cover></v-img>
         </v-carousel-item>
     </v-carousel>
 </template>

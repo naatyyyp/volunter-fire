@@ -4,7 +4,7 @@
       class="d-flex child-flex"
       cols="4"
     >
-      <v-img src="../assets/biblioteca.JPG"
+      <v-img src="../assets/libros.jpeg"
         cover
         class="bg-grey-lighten-2"
       >
@@ -15,7 +15,7 @@
       class="d-flex child-flex"
       cols="4"
     >
-      <v-img src="../assets/cuadros.JPG"
+      <v-img src="../assets/destacamentos.jpeg"
         cover
         class="bg-grey-lighten-2"
       >
@@ -26,7 +26,7 @@
       class="d-flex child-flex"
       cols="4"
     >
-      <v-img src="../assets/historia.JPG"
+      <v-img src="../assets/placas.jpeg"
         cover
         class="bg-grey-lighten-2"
       >
@@ -37,7 +37,7 @@
       class="d-flex child-flex"
       cols="4"
     >
-      <v-img src="../assets/libros.JPG"
+      <v-img src="../assets/nombres.jpeg"
         cover
         class="bg-grey-lighten-2"
       >
@@ -48,7 +48,7 @@
       class="d-flex child-flex"
       cols="4"
     >
-      <v-img src="../assets/fundacion.JPG"
+      <v-img src="../assets/"
         cover
         class="bg-grey-lighten-2"
       >

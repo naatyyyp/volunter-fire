@@ -1,12 +1,19 @@
 <template>
-    <div>
+     <div>
         <v-row>
-            <v-col cols="3">
-                <h4 class="mt-4">
-                    Necesitamos su apoyo para mantener unidades de emergencia, comprar equipos y garantizar servicios básicos para los Bomberos Voluntarios de Lanús. Nuestra misión es fortalecer la seguridad, cuidar a los bomberos y promover la participación de la comunidad en la protección local.
-                </h4>
-            </v-col>
-            <v-col cols="6">
+    <v-col cols="6">
+       <v-card width="600px" 
+       color="red"
+       variant="tonal">
+      <v-card-title class="text-h6 text-md-h5 text-lg-h4">¡Ayúdanos a salvar vidas!</v-card-title>
+      <v-card-text>
+        Tu generosidad puede proporcionarles los medios, la capacitación y los recursos
+        que requieren para continuar su trabajo con compromiso y excelencia.
+        Cada aporte, sin importar cuán pequeño, marca un gran impacto en la seguridad de todos.
+        ¡Haz tu donación ahora y respalda a nuestros bomberos!
+  </v-card-text>
+    </v-card>
+  
                 <v-row align="center" justify="center">
                     <v-col cols="12" md="6" class="text-center">
                         <h3 class="mb-4">¡Escaneá el QR y doná!</h3>
@@ -19,14 +26,34 @@
                         <v-text-field variant="outlined" label="CBU" readonly :model-value="cbu" />
                     </v-col>
                 </v-row>
-            </v-col>
-            <v-col cols="3">
-                <h4 class="mt-4">
-                    solicita ayuda para mantener las operaciones de Bomberos Voluntarios de Lanús, que incluyen equipos, servicios básicos y apoyo a los bomberos. Su objetivo es mejorar la seguridad, el bienestar de los bomberos y la participación comunitaria en la protección.
-                </h4>
-            </v-col>
-        </v-row>
+           
+</v-col>
+    <v-col cols="3">
+     <v-img
+      src="../../assets/bombero.JPG"
+      height="300px"
+      width="200px"
+      cover
+    ></v-img>
+ </v-col>
+ <v-col cols="3">
+   <v-img
+   src="../../assets/bombero2.JPG"
+   heigth="200px"
+   width="300px"
+   cover>
+</v-img>
+<v-col cols="12">
+<v-alert
+    color="error"
+    text="'Ninguno de nosotros solos es tan bueno como todos nosotros juntos'">
+</v-alert> </v-col>
+</v-col>
+      
+</v-row>
     </div>
+    
+    
 </template>
 
 <script>
